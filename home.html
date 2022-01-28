@@ -3,17 +3,20 @@
 <head>
     <title>Assignment</title>
     <link rel="stylesheet" href="home.css">
+    
 </head>
 <body>
     <div class="container">
         <h1>Stop Watch</h1>
-        <span>00:00:00:000</span>
+        <div class="timerDisplay">
+        <span>00 : 00 : 00 : 000</span>
+    </div>
         <div class="btn-container">
-            <button class="btn-stop">Stop</button>
-            <button class = "btn-start">Start</button>
-            <button class="btn-reset">Reset</button>
+            <button id="stop">Stop</button>
+            <button id = "start">Start</button>
+            <button id="reset">Reset</button>
         </div>
     </div>
-    
+    <script src="home.js"></script>
 </body>
 </html>
