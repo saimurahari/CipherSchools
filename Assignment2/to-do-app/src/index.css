@@ -63,6 +63,7 @@ button{
 input.form-check-input{
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
 input:checked + label.strikethrough{
   text-decoration: line-through;
