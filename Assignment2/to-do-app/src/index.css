@@ -73,7 +73,7 @@ input:checked + label.strikethrough{
   margin-left: 360px;
 }
 
-@media (max-width:326px){
+@media (max-width:390px){
   h1{ 
     display:flex;
     justify-content: center;
