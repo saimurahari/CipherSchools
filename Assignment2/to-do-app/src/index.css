@@ -73,12 +73,12 @@ input:checked + label.strikethrough{
   margin-left: 360px;
 }
 
-@media (max-width:390px){
+@media (max-width:393px){
   h1{ 
     display:flex;
     justify-content: center;
     color: white; 
-    font-size: 40px;
+    font-size: 30px;
     background: rgb(0, 162, 255);
     border:2px solid black;
     text-shadow: 5px 1px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000
@@ -86,7 +86,7 @@ input:checked + label.strikethrough{
   #text{
   
     border :2px solid;
-    width:250px;
+    width:200px;
     height: 30px;
     border-radius: 14px;
     font-size: 15px;
@@ -109,5 +109,90 @@ input:checked + label.strikethrough{
   }
   #add:hover{ 
     background:rgb(6, 75, 6);
+  }
+  button{
+    float:right;
+    margin-right: 60px;
+    border:2px solid black;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    color: green;
+    font-size: 15px;
+    border-radius: 14px;
+  }
+  input.form-check-input{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  input:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
+  .deladd{ 
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width:397px){
+  h1{ 
+    display:flex;
+    justify-content: center;
+    color: white; 
+    font-size: 30px;
+    background: rgb(0, 162, 255);
+    border:2px solid black;
+    text-shadow: 5px 1px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000
+  }
+  #text{
+  
+    border :2px solid;
+    width:200px;
+    height: 30px;
+    border-radius: 14px;
+    font-size: 15px;
+  }
+  label{ 
+    font-size: 25px;
+  }
+  #add{
+  
+    border:2px solid black;
+    background: white;
+    cursor: pointer;
+    height:30px;
+    width:50px;
+    font-weight: bold;
+    background: green;
+    color: white;
+    font-size: 24px;
+    border-radius: 14px;
+  }
+  #add:hover{ 
+    background:rgb(6, 75, 6);
+  }
+  button{
+    float:right;
+    margin-right: 60px;
+    border:2px solid black;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    color: green;
+    font-size: 15px;
+    border-radius: 14px;
+  }
+  input.form-check-input{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  input:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
+  .deladd{ 
+    margin-top: 30px;
+    margin-left: 60px;
   }
 }
