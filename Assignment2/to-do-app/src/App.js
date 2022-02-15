@@ -19,6 +19,8 @@ const App = () =>{
     const newTodos = todos.filter((todo,index) => index !==indexValue)
     setTodos(newTodos)
   }
+ 
+
 
   return(
     <div>
@@ -31,7 +33,6 @@ const App = () =>{
               <input type = "text" name = "task" id ="text" value = {task} onChange={changeHandler}/> &nbsp;&nbsp;
               <input type = "submit" value="+" id = "add" name = "Add"/>
               
-
             </form>
             </center>
             <TodoList todolist = {todos} deleteHandler = {deleteHandler}/>
@@ -39,6 +40,7 @@ const App = () =>{
           </div>
       
     </div>
+    
   )
 }
 export default App
