@@ -28,7 +28,8 @@ const LoginFormSuccess = ()=>{
                     value={search}
                     onChange={(e)=> setSearch(e.target.value)}
                     />
-                     <button type="submit" class="btn btn-primary" >Sign up</button>
+                     <button type="submit" class="btn btn-primary" >Search</button>
+                     <p>Search recipe like Chicken and press search button</p>
 
                 </form>
                 {data.length>=1 ? <Products data={data}/>:null}
